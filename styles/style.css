@@ -21,7 +21,7 @@ p {
 
 /* Nav section */
 header {
-    background-color: #F2CCD4;
+    background-color: #ffd6df;
 }
 
 
@@ -86,6 +86,9 @@ header {
 .f-img {
     height: 800px;
     width: 635px;
+    position: relative;
+    top: 24px;
+
 }
 
 
@@ -94,23 +97,30 @@ header {
 
 .product-sec {
     text-align: center;
+    padding: 0 300 0 300;
 }
+
 .product-heading {
-     text-align: center;
-     font-size: 40px;
-      margin: 150px 0 15px 0;
+    text-align: center;
+    font-size: 40px;
+    margin: 150px 0 15px 0;
 }
+
 .product-des {
     text-align: center;
     font-size: 18px;
     margin: 0 0 30px 0;
-    
-   
+
+
+}
+
+.hd {
+    padding: 0 700px;
 }
 
 .images {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: end;
     gap: 20px;
 
@@ -118,7 +128,7 @@ header {
 
 .img-1 {
     background-color: #A72162;
-    
+
 
 }
 
@@ -129,6 +139,26 @@ header {
 .img-3 {
     background-color: #477D11;
 }
+
 .images>div>p {
     border-bottom: 1px solid black;
 }
+
+/* png section */
+
+
+.png-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 70px;
+    background-color: #bbb8b8;
+    height: 200px;
+    /* padding: 100px 200px; */
+}
+
+.pp {
+    padding: 200px 190px;
+}
+
+/* special discount section */
