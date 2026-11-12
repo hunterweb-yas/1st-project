@@ -162,3 +162,70 @@ header {
 }
 
 /* special discount section */
+
+
+.dis-container {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 70px;
+    background-color: #ffd6df;
+    
+    
+}
+.dis-description {
+    height: 300px;
+    width: 600px;
+}
+.dis-heading {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+
+/* instagram section */
+
+.insta-section {
+    
+    text-align: center;
+    height: 200px;
+    /* width: 800px; */
+}
+.insta-heading {
+    font-size: 40px;
+}
+
+
+.insta-img {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+/* deals section */
+
+#deals {
+    padding: 100px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.div-bg {
+    padding: 300px 500px;
+    background-image: url("./../assignment-1/Flower Asset/Rectangle 9.png");
+    background-repeat: no-repeat;
+    
+}
+.deals-hed {
+    font-size: 40px;
+}
+
+.email {
+    border: none;
+    border-radius: 5px;
+    padding: 14px 100px;
+    
+}
